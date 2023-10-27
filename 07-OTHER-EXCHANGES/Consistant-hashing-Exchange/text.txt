@@ -1,0 +1,32 @@
+by default its not installed:
+in cmd:
+Microsoft Windows [Version 10.0.19045.3570]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\PYTHON>cd ..
+
+C:\Users>cd ..
+
+C:\>cd Program Files
+
+C:\Program Files>cd RabbitMQ Server
+
+C:\Program Files\RabbitMQ Server>cd rabbitmq_server-3.12.6
+
+C:\Program Files\RabbitMQ Server\rabbitmq_server-3.12.6>cd sbin
+
+C:\Program Files\RabbitMQ Server\rabbitmq_server-3.12.6\sbin>rabbitmq-plugins enable rabbitmq_consistent_hash_exchange
+Enabling plugins on node rabbit@DESKTOP-JC1FD4G:
+rabbitmq_consistent_hash_exchange
+The following plugins have been configured:
+  rabbitmq_consistent_hash_exchange
+  rabbitmq_management
+  rabbitmq_management_agent
+  rabbitmq_web_dispatch
+Applying plugin configuration to rabbit@DESKTOP-JC1FD4G...
+The following plugins have been enabled:
+  rabbitmq_consistent_hash_exchange
+
+started 1 plugins.
+
+C:\Program Files\RabbitMQ Server\rabbitmq_server-3.12.6\sbin>

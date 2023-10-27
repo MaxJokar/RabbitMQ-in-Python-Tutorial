@@ -1,0 +1,7 @@
+pika 
+
+07-other-echange:consistant-hasshing-exchange:
+hashing exchange is not installed by default and you must install it manually 
+cmd:
+cd C:\Program Files\RabbitMQ Server\rabbitmq_server-3.12.6\sbin\
+rabbitmq-plugins enable rabbitmq_consistent_hash_exchange
